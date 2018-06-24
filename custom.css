@@ -26,7 +26,10 @@
 /* Icon and illustration fills */
 .fill-fade-white { fill: rgba(255, 255, 255, 0.5); }
 .fill-blue-200 { fill: #c8e1ff; }
+.fill-blue-300 { fill: #79b8ff; }
 .fill-blue-400 { fill: #2188ff; }
+.fill-blue-500 { fill: #0366d6; }
+.fill-blue-600 { fill: #005cc5; }
 
 /* Primer colors */
 .bg-blue-200 { background-color: #c8e1ff; }
@@ -42,8 +45,6 @@
 .text-blue-300 { color: #79b8ff; }
 .text-blue-400 { color: #2188ff; }
 
-.fill-blue-400 { fill: #2188ff; }
-
 .text-red-300 { color: #f97583; }
 
 .bg-gray-800 { background-color: #2f363d; }
@@ -53,7 +54,7 @@
 .squiggles1 {
   background-image: url("squiggles1.svg");
   background-repeat: no-repeat;
-  background-position: top 20% right 16%;
+  background-position: top 8% right 16%;
 }
 
 .squiggles2 {
