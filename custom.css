@@ -48,3 +48,22 @@
 
 .bg-gray-800 { background-color: #2f363d; }
 .bg-black { background-color: #1b1f23; }
+
+/* Background images */
+.squiggles1 {
+  background-image: url("squiggles1.svg");
+  background-repeat: no-repeat;
+  background-position: top 20% right 16%;
+}
+
+.squiggles2 {
+  background-image: url("squiggles2.svg");
+  background-repeat: no-repeat;
+  background-position: top 14% left 5%;
+}
+
+.squiggles3 {
+  background-image: url("squiggles3.svg");
+  background-repeat: no-repeat;
+  background-position: top 4% left 16%;
+}
