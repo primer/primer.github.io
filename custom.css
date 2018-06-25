@@ -31,6 +31,13 @@
 .fill-blue-500 { fill: #0366d6; }
 .fill-blue-600 { fill: #005cc5; }
 
+.border-white-fade { border-color: rgba(255, 255, 255, 0.15) !important; }
+
+.divider {
+  border-top: 2px solid #79b8ff !important;
+  opacity: 0.15;
+}
+
 /* Primer colors */
 .bg-blue-200 { background-color: #c8e1ff; }
 .bg-blue-300 { background-color: #79b8ff; }
