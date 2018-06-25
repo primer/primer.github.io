@@ -20,86 +20,196 @@
     <meta name="twitter:site" content="@primercss">
 
 
-    <link href="https://unpkg.com/primer-core@latest/build/build.css" rel="stylesheet">
-    <link href="https://unpkg.com/primer-markdown@latest/build/build.css" rel="stylesheet">
-
-    <style>
-    .btn-outline-reverse {
-      background-color: #0366d6 !important;
-      color: #fff;
-      border-color: #fff;
-    }
-    .btn-outline-reverse:hover {
-      background-color: #fff !important;
-      color: #0366d6;
-      border-color: #fff;
-    }
-    .main-content { max-width: 60em; }
-    .fill-fade-white { fill: rgba(255, 255, 255, 0.5); }
-    </style>
+    <link rel="stylesheet" href="https://unpkg.com/primer-marketing-utilities@latest/build/build.css">
+    <link rel="stylesheet" href="https://unpkg.com/primer-core@latest/build/build.css">
+    <link rel="stylesheet" href="https://unpkg.com/primer-marketing-buttons@latest/build/build.css">
+    <link rel="stylesheet" href="custom.css">
 
     <!-- GitHub stars button. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
   </head>
-  <body>
-    <div class="bg-blue pb-6">
-      <header class="main-content mx-auto p-responsive d-flex flex-items-center flex-wrap flex-md-nowrap pt-3 pb-6">
-        <div class="flex-auto pr-3">
-          <svg height="64" class="octicon octicon-package fill-fade-white" viewBox="0 0 16 16" version="1.1" width="48" aria-hidden="true"><path fill-rule="evenodd" d="M1 4.27v7.47c0 .45.3.84.75.97l6.5 1.73c.16.05.34.05.5 0l6.5-1.73c.45-.13.75-.52.75-.97V4.27c0-.45-.3-.84-.75-.97l-6.5-1.74a1.4 1.4 0 0 0-.5 0L1.75 3.3c-.45.13-.75.52-.75.97zm7 9.09l-6-1.59V5l6 1.61v6.75zM2 4l2.5-.67L11 5.06l-2.5.67L2 4zm13 7.77l-6 1.59V6.61l2-.55V8.5l2-.53V5.53L15 5v6.77zm-2-7.24L6.5 2.8l2-.53L15 4l-2 .53z"></path></svg>
+  <body class="bg-black text-blue-200">
+    <div class="bg-gray-dark">
+      <header class="p-responsive d-flex flex-items-center flex-wrap flex-md-nowrap py-2">
+        <div class="d-inline-block v-align-middle pl-2 mt-1">
+          <!-- <a class="github-button" style="border-color: #005cc5" href="https://github.com/primer/primer" data-show-count="true" aria-label="Star primer/primer on GitHub">Star</a> -->
+          <img src="mark-github.svg">
         </div>
-        <div>
-          <a class="text-white mr-3" href="https://github.com/primer/primer#install">Install</a>
-          <a class="text-white mr-3" href="https://github.com/primer/primer/blob/master/CHANGELOG.md">Changelog</a>
-          <a class="text-white mr-3" href="https://primer.github.io/storybook/">Storybook</a>
-          <div class="d-inline-block v-align-middle">
-            <a class="github-button" style="border-color: #005cc5" href="https://github.com/primer/primer" data-show-count="true" aria-label="Star primer/primer on GitHub">Star</a>
-          </div>
+        <div class="flex-auto pl-2 pr-0 pr-md-3 text-right">
+
+          <a class="text-blue-300 mr-3" href="https://styleguide.github.com/primer/">Docs</a>
+          <a class="text-blue-300 mr-3" href="https://github.com/primer/primer#install">Install</a>
+          <a class="text-blue-300 mr-3" href="https://primer.github.io/storybook/">Storybook</a>
+          <a class="text-blue-300 mr-3" href="https://github.com/primer/primer/blob/master/CHANGELOG.md">Changelog</a>
         </div>
       </header>
-      <div class="main-content mx-auto text-white py-6 p-responsive">
-        <h1 class="f00-light">Primer</h1>
-        <p class="f3 mb-4">The design system that powers GitHub</p>
-        <a class="btn btn-outline btn-outline-reverse text-normal py-2 mb-6 f4" href="https://www.npmjs.com/package/primer">Install Primer 10.6.1</a>
+    </div>
+    <div class="py-2 py-sm-6">
+      <div class="container-lg mx-auto text-white my-4 py-md-9 p-responsive d-flex flex-items-center flex-wrap flex-md-nowrap flex-md-row-reverse">
+        <div class="my-md-4 col-9 mx-auto mx-md-0 px-sm-6 px-md-0 col-md-7">
+          <img class="width-full" src="painting-lego4.svg">
+        </div>
+        <div class="col-12 col-md-5 my-3 my-md-0">
+          <h1 class="f00-light text-bold text-blue-400 mb-3">Primer</h1>
+          <a class="btn btn-transparent btn-white btn-large f4 mb-4 mr-2" href="https://styleguide.github.com/primer/">Documentation</a>
+          <a class="btn btn-transparent btn-gh text-blue-200 btn-large f4 mb-4" href="https://github.com/primer/primer">GitHub</a>
+          <p class="text-mono f4 text-blue-300">npm i primer@latest</p>
+        </div>
+      </div>
+      <div class="container-lg mx-auto pb-4 p-responsive">
+        <div class="col-2 mx-auto divider">&nbsp</div>
+        <h2 class="f1 text-normal mt-6 text-blue-300 mb-6 text-left text-md-center">Resources, tooling, and design guidelines for building websites with Primer—the design system that powers GitHub.</h2>
+      </div>
+      <div class="squiggles3">
+        <div class="container-xl mx-auto py-3 py-md-6 p-responsive">
+          <section class="py-6 d-flex flex-wrap flex-md-nowrap flex-items-center gutter-md gutter-lg-spacious">
+            <div class="bg-blue-800 col-12 col-sm-10 col-md-6 p-3 p-sm-4 m-6 rounded-2">
+              <img class="width-fit col-md-10 px-sm-3 p-md-3" src="code-sample.svg">
+            </div>
+            <div class="col-12 col-md-6">
+              <h2 class="f1 text-blue-400 mb-3 px-md-3">Highly resuable, flexible styles</h2>
+              <p class="f3 px-md-3">Styles can be mixed and matched to achieve many different layouts, independent of their location.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="py-12 mt-n5 mt-md-0 py-md-6 squiggles1">
+        <div class="container-lg p-responsive mx-auto">
+          <h2 class="f1 text-blue-400 pt-8 mb-3">Packages</h2>
+          <p class="f3 pb-8 col-md-9">Packages are independently versioned and distributed via npm, so it's easy to include all or part of Primer within your own project.</p>
+          <div class="d-flex flex-wrap gutter-md gutter-lg-spacious">
+            <div class="col-12 col-md-6 d-flex mb-4">
+              <div class="col-1">
+                <svg class="fill-blue-500 mr-3" height="32" width="32" viewBox="0 0 16 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M1 4.27v7.47c0 .45.3.84.75.97l6.5 1.73c.16.05.34.05.5 0l6.5-1.73c.45-.13.75-.52.75-.97V4.27c0-.45-.3-.84-.75-.97l-6.5-1.74a1.4 1.4 0 0 0-.5 0L1.75 3.3c-.45.13-.75.52-.75.97zm7 9.09l-6-1.59V5l6 1.61v6.75zM2 4l2.5-.67L11 5.06l-2.5.67L2 4zm13 7.77l-6 1.59V6.61l2-.55V8.5l2-.53V5.53L15 5v6.77zm-2-7.24L6.5 2.8l2-.53L15 4l-2 .53z"></path></svg>
+              </div>
+              <div class="pl-3 col-11 mb-3">
+                <h3 class="text-normal mb-1"><a class="text-blue-200 link-hover-blue" href="https://github.com/primer/primer/tree/master/modules/primer">Primer</a></h3>
+                <p class="f4 pr-md-3">This package includes all 30 Primer modules from the core, product, and marketing packages.</p>
+                <p class="text-mono text-blue-300">npm i primer</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex mb-4">
+              <div class="col-1">
+                <svg class="fill-blue-400 mr-3" height="32" width="32" viewBox="0 0 16 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M1 4.27v7.47c0 .45.3.84.75.97l6.5 1.73c.16.05.34.05.5 0l6.5-1.73c.45-.13.75-.52.75-.97V4.27c0-.45-.3-.84-.75-.97l-6.5-1.74a1.4 1.4 0 0 0-.5 0L1.75 3.3c-.45.13-.75.52-.75.97zm7 9.09l-6-1.59V5l6 1.61v6.75zM2 4l2.5-.67L11 5.06l-2.5.67L2 4zm13 7.77l-6 1.59V6.61l2-.55V8.5l2-.53V5.53L15 5v6.77zm-2-7.24L6.5 2.8l2-.53L15 4l-2 .53z"></path></svg>
+              </div>
+              <div class="pl-3 col-11 mb-3">
+                <h3 class="text-normal mb-1"><a class="text-blue-200 link-hover-blue" href="https://github.com/primer/primer/tree/master/modules/primer-core">Primer core</a></h3>
+                <p class="f4 pr-md-3">The core package contains modules that are shared between GitHub product and marketing websites.</p>
+                <p class="text-mono text-blue-300">npm i primer-core</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 d-flex mb-4">
+              <div class="col-1">
+                <svg class="fill-blue-300 mr-3" height="32" width="32" viewBox="0 0 16 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M1 4.27v7.47c0 .45.3.84.75.97l6.5 1.73c.16.05.34.05.5 0l6.5-1.73c.45-.13.75-.52.75-.97V4.27c0-.45-.3-.84-.75-.97l-6.5-1.74a1.4 1.4 0 0 0-.5 0L1.75 3.3c-.45.13-.75.52-.75.97zm7 9.09l-6-1.59V5l6 1.61v6.75zM2 4l2.5-.67L11 5.06l-2.5.67L2 4zm13 7.77l-6 1.59V6.61l2-.55V8.5l2-.53V5.53L15 5v6.77zm-2-7.24L6.5 2.8l2-.53L15 4l-2 .53z"></path></svg>
+              </div>
+              <div class="pl-3 col-11 mb-3">
+                <h3 class="text-normal mb-1"><a class="text-blue-200 link-hover-blue" href="https://github.com/primer/primer/tree/master/modules/primer-product">Primer product</a></h3>
+                <p class="f4 pr-md-6">The product package contains modules that are used on GitHub product websites.</p>
+                <p class="text-mono text-blue-300">npm i primer-product</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 d-flex mb-4">
+              <div class="col-1">
+                <svg class="fill-blue-200 mr-3" height="32" width="32" viewBox="0 0 16 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M1 4.27v7.47c0 .45.3.84.75.97l6.5 1.73c.16.05.34.05.5 0l6.5-1.73c.45-.13.75-.52.75-.97V4.27c0-.45-.3-.84-.75-.97l-6.5-1.74a1.4 1.4 0 0 0-.5 0L1.75 3.3c-.45.13-.75.52-.75.97zm7 9.09l-6-1.59V5l6 1.61v6.75zM2 4l2.5-.67L11 5.06l-2.5.67L2 4zm13 7.77l-6 1.59V6.61l2-.55V8.5l2-.53V5.53L15 5v6.77zm-2-7.24L6.5 2.8l2-.53L15 4l-2 .53z"></path></svg>
+              </div>
+              <div class="pl-3 col-11 mb-3">
+                <h3 class="text-normal mb-1"><a class="text-blue-200 link-hover-blue" href="https://github.com/primer/primer/tree/master/modules/primer-marketing">Primer marketing</a></h3>
+                <p class="f4 pr-md-6">The marketing package contains modules that are used on GitHub marketing websites.</p>
+                <p class="text-mono text-blue-300">npm i primer-marketing</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="main-content mx-auto py-6 p-responsive">
-      <div class="markdown-body">
-        <section class="mb-6">
-          <p class="f3 py-4">Primer has undergone a lot of changes in the past 18 months. We've been consolidating and updating the CSS to make more resuable and flexible styles, we turned <a href="https://github.com/primer/primer">Primer</a> into a monorepo and improved our build process, and we've been building a new documentation website that we'll making public soon. In the meantime, you can still view the <a href="./archive/index.html">old documentation website</a>, view rendered examples of Primer styles in <a href="https://primer.github.io/storybook/">storybook</a>, or you can find up-to-date documentation for styles within the <code>README.md</code> or <code>docs</code> folder of each <a href="https://github.com/primer/primer/tree/master/modules">Primer module</a>.</p>
-        </section>
 
-        <section class="my-6 pb-4">
-          <h2 class="f1">Packages</h2>
-          <p class="f3 mb-6">Primer CSS includes 30 packages that are grouped into 3 core meta-packages for easy install. Each package and meta-package is independently versioned and distributed via npm, so it's easy to include all or part of Primer within your own project.</p>
+  <div class="squiggles2 mt-n6 mt-lg-0 pt-6 pt-sm-10 pt-lg-6">
+    <div class="container-xl mx-auto py-6 p-responsive">
+      <section class="py-6 d-flex flex-items-center gutter-md gutter-lg-spacious flex-wrap flex-md-nowrap flex-md-row-reverse">
+        <div class="col-12 col-md-6 rounded-2 text-center text-md-right">
+          <img class="col-10 col-sm-8 col-md-12 mb-3 mb-md-0" src="autocomplete.svg">
+        </div>
+        <div class="col-12 col-md-6 mt-3 mt-md-6 mt-lg-0">
+          <div class="px-md-3">
+            <h2 class="f1 text-blue-400 mb-3 mr-4">Atom autocomplete-primer</h2>
+            <p class="f3 mb-6 pr-md-6">Install this custom Atom package to autocomplete classnames for Primer utilities and rails helpers for Octicons.</p>
+            <a class="btn btn-transparent btn-gh text-blue-200 btn-large f4 mb-4" href="https://atom.io/">Learn more about Atom</a>
+            <p class="text-mono f4 text-blue-300">apm install autocomplete-primer</p>
+          </div>
+        </div>
+      </section>
+    </div>
 
+  </div>
 
-          <ul class="list-style-none pl-0">
-            <li class="mb-4">
-              <a href="https://github.com/primer/primer/tree/master/modules/primer" class="link-gray-dark no-underline d-inline-block v-align-middle mr-2 f3"><strong>Primer CSS</strong></a><a href="https://www.npmjs.com/package/primer"><img class="d-inline-block v-align-middle mr-1" src="https://img.shields.io/npm/v/primer.svg" alt="npm"></a><a href="https://travis-ci.org/primer/primer"><img class="d-inline-block v-align-middle" src="https://travis-ci.org/primer/primer.svg?branch=master" alt="npm"></a>
-              <p class="my-2">Contains all modules in primer-core, primer-product, and primer-marketing packages.</p>
-            </li>
-            <li class="mb-4">
-              <a href="https://github.com/primer/primer/tree/master/modules/primer-core" class="link-gray-dark no-underline d-inline-block v-align-middle mr-2 f3"><strong>Primer Core</strong></a><a href="https://www.npmjs.com/package/primer-core"><img class="d-inline-block v-align-middle" src="https://img.shields.io/npm/v/primer-core.svg" alt="npm"></a>
-              <p class="my-2">Contains modules that are shared between GitHub product and marketing websites: <a href="https://github.com/primer/primer/tree/master/modules/primer-base">primer-base</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-box">primer-box</a>, <a href="https://github.com/primer/primer/tree/master/modules/breadcrumb">primer-breadcrumb</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-buttons">primer-buttons</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-forms">primer-forms</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-layout">primer-layout</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-navigation">primer-navigation</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-support">primer-support</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-table">primer-table-object</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-tooltips">primer-tooltips</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-truncate">primer-truncate</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-utilities">primer-utilities</a>.</p>
-            </li>
-            <li class="mb-4">
-              <a href="https://github.com/primer/primer/tree/master/modules/primer-product" class="link-gray-dark no-underline d-inline-block v-align-middle mr-2 f3"><strong>Primer Product</strong></a><a href="https://www.npmjs.com/package/primer-product"><img class="d-inline-block v-align-middle" src="https://img.shields.io/npm/v/primer-product.svg" alt="npm"></a>
-              <p class="my-2">Contains modules that are used on GitHub product websites: <a href="https://github.com/primer/primer/tree/master/modules/primer-alerts">primer-alerts</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-avatars">primer-avatars</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-blankslate">primer-blankslate</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-branch-name">primer-branch-name</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-labels">primer-labels</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-markdown">primer-markdown</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-popover">primer-popover</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-subhead">primer-subhead</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-support">primer-support</a>.</p>
-            </li>
-            <li>
-              <a href="https://github.com/primer/primer/tree/master/modules/primer-marketing" class="link-gray-dark no-underline d-inline-block v-align-middle mr-2 f3"><strong>Primer Marketing</strong></a><a href="https://www.npmjs.com/package/primer-marketing"><img class="d-inline-block v-align-middle" src="https://img.shields.io/npm/v/primer-marketing.svg" alt="npm"></a>
-              <p class="mt-2">Contains modules that are used on GitHub marketing websites: <a href="https://github.com/primer/primer/tree/master/modules/primer-marketing-buttons">primer-marketing-buttons</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-marketing-support">primer-marketing-support</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-marketing-type">primer-marketing-type</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-marketing-utilities">primer-marketing-utilities</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-page-headers">primer-page-headers</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-page-sections">primer-page-sections</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-support">primer-support</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-tables">primer-tables</a>, <a href="https://github.com/primer/primer/tree/master/modules/primer-support">primer-support</a>.</p>
-            </li>
-          </ul>
-        </section>
+    <div class="pt-6 pb-12">
+      <div class="container-xl mb-6 text-center">
+        <div class="col-2 mx-auto divider pb-12">&nbsp</div>
+        <img class="col-12 mb-6 px-2" src="octicons.svg">
+      </div>
+      <div class="container-lg mx-auto pb-8 p-responsive text-center">
 
-        <footer class="mb-6 pt-4 border-top">
-          <p class="mb-2">Available for use under the MIT <a href="https://github.com/primer/primer/blob/master/LICENSE">license</a>. Copyright GitHub 2018.</p>
-          <p>Created and maintained by GitHub's <a href="https://github.com/orgs/primer/people">Design Systems team</a>.</p>
-        </footer>
+        <div class="text-center">
+          <h2 class="f00-light text-bold text-blue-400 text-center">Octicons</h2>
+          <p class="f2 py-2">Your project. GitHub's icons.</p>
+          <p class="text-mono text-blue-300 f4">v7.3.0</p>
+        </div>
+      </div>
+
+      <div class="container-xl mx-auto p-responsive mb-6">
+        <div class="d-flex flex-wrap">
+          <div class="col-12 col-md-4 d-flex px-3 px-md-6 mb-4">
+              <img class="fill-blue-200 mr-3 mt-n2" height="64" src="file-code.svg">
+            </svg>
+            <div class="flex-auto">
+              <p class="f4">Install the node.js or react.js package via npm to use with your JavaScript project.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 d-flex px-3 px-md-6 mb-4">
+            <img class="fill-blue-300 mr-3 mt-n2" height="64" src="ruby.svg">
+            <div class="flex-auto">
+              <p class="f4">Install the Ruby gem, Rails helper, or Jekyll plugin to use in your project.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 d-flex px-3 px-md-6 mb-4">
+            <img class="fill-blue-300 mr-3 pb-2" height="64" src="figma.svg">
+            <div class="flex-auto">
+              <p class="f4">Use Octicon SVG's in your Figma design projects.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
+    <div class="bg-gray-dark py-12">
+      <div class="container-lg my-md-6 d-flex flex-wrap flex-md-nowrap p-responsive">
+        <div class="col-12 col-md-6">
+          <h2 class="f0-light text-bold text-blue-400 py-6">Open source</h2>
+          <p class="f4 mb-6 col-md-9">Primer is open sourced on GitHub. Contributions and feedback are welcome!</p>
+          <a class="btn btn-transparent btn-white btn-large f4 mb-6 mr-2" href="https://styleguide.github.com/primer/">Fork on GitHub</a>
+        </div>
+        <div class="col-12 col-md-6 f4">
+          <h2 class="f0-light text-bold text-blue-400 py-6">Keep in touch</h2>
+          <a href="" class="text-blue-300">Follow us on twitter</p>
+          <a href="" class="text-blue-300">Chat to us in Slack</p>
+          <a href="" class="text-blue-300">Share feedback on GitHub</p>
+        </div>
+      </div>
+      <div class="container-lg mx-auto mt-6 text-blue-200 border-top border-white-fade py-3 p-responsive">
+        <p class="mb-2">Available for use under the MIT <a class="text-blue-300" href="https://github.com/primer/primer/blob/master/LICENSE">license</a>. Copyright GitHub 2018.</p>
+        <p>Created and maintained by GitHub's <a class="text-blue-300" href="https://github.com/orgs/primer/teams/ds-core/members">Design Systems team</a>.</p>
+      </div>
+    </div>
+
+    <footer class="py-3 bg-blue-300">
+      <div class="container-lg mx-auto text-right p-responsive">
+<a class="link-gray-dark text-bold" href="https://github.com">Made with love by GitHub</a>
+      </div>
+    </footer>
 
 
   </body>
