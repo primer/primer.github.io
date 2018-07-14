@@ -20,6 +20,10 @@
   "bugs": {
     "url": "https://github.com/primer/primer.github.io/issues"
   },
+  "x0": {
+    "title": "GitHub Primer open-source projects",
+    "template": "./src/template.js"
+  },
   "homepage": "https://github.com/primer/primer.github.io#readme",
   "dependencies": {
     "@compositor/x0": "^6.0.2",
