@@ -1,0 +1,32 @@
+{
+  "name": "primer.github.io",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "GitHub Primer open-source projects website",
+  "main": "index.js",
+  "scripts": {
+    "start": "x0 pages -op 8888",
+    "build": "x0 build page --out-dir docs --static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primer/primer.github.io.git"
+  },
+  "keywords": [
+    "design-system"
+  ],
+  "author": "GitHub Design Systems",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/primer/primer.github.io/issues"
+  },
+  "homepage": "https://github.com/primer/primer.github.io#readme",
+  "dependencies": {
+    "@compositor/x0": "^6.0.2",
+    "@githubprimer/octicons-react": "^8.0.0",
+    "primer-primitives": "^1.0.1",
+    "primer-react": "0.0.10-beta",
+    "styled-components": "^3.3.3",
+    "styled-system": "^2.3.6"
+  }
+}
