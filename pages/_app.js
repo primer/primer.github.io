@@ -1,14 +1,14 @@
 import React from 'react'
-import {Block, Text} from 'primer-react'
+import BoxPro from '../src/BoxPro'
 import {ThemeProvider} from 'styled-components'
 import theme from '../src/theme.js'
 
 const Page = props => (
   <ThemeProvider theme={theme}>
     <React.Fragment>
-      <Block color='gray-dark'>
+      <BoxPro bg='black' color='blue.2'>
         {props.children}
-      </Block>
+      </BoxPro>
     </React.Fragment>
   </ThemeProvider>
 )

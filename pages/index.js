@@ -1,9 +1,16 @@
 import React from 'react'
 import {Box, Block, Heading, Text} from 'primer-react'
 import Octicon, {iconsByName} from '@githubprimer/octicons-react'
+import BoxPro from '../src/BoxPro'
+import Nav from '../src/Nav'
+
 
 export default () =>
-  <Block p={2}>
-    <Heading>Primer</Heading>
-    <Text>hello</Text>
-  </Block>
+<React.Fragment>
+  <BoxPro bg='black'>
+    <Nav />
+    <BoxPro>
+      some text
+    </BoxPro>
+  </BoxPro>
+</React.Fragment>
