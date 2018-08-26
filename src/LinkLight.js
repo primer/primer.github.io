@@ -6,7 +6,7 @@ import {
   fontSize,
   space
 } from 'styled-system'
-import styled from 'styled-components'
+import styled from 'react-emotion'
 
 const LinkLight = styled(Link)`
   color: ${props => props.theme.colors.blue[3]} !important;

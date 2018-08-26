@@ -1,12 +1,12 @@
-import {Block} from 'primer-react'
+import {Box} from 'primer-react'
 import {
   color,
   width
 } from 'styled-system'
 
-import styled from 'styled-components'
+import styled from 'react-emotion'
 
-const BoxPro = styled(Block)`
+const BoxPro = styled(Box)`
   ${color}
   ${width}
 `

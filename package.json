@@ -26,13 +26,16 @@
   },
   "homepage": "https://github.com/primer/primer.github.io#readme",
   "dependencies": {
-    "@compositor/x0": "^6.0.2",
+    "@compositor/x0": "^6.0.5",
     "@githubprimer/octicons-react": "^8.0.0",
+    "babel-plugin-emotion": "^9.2.6",
     "classnames": "^2.2.6",
-    "primer": "^10.7.0",
-    "primer-primitives": "^1.0.1",
-    "primer-react": "0.0.10-beta",
-    "styled-components": "^3.3.3",
+    "emotion": "^9.2.6",
+    "emotion-theming": "^9.2.6",
+    "primer": "^10.8.1",
+    "primer-primitives": "^1.0.2",
+    "primer-react": "^2.0.0-beta",
+    "react-emotion": "^9.2.6",
     "styled-system": "^2.3.6"
   }
 }

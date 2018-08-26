@@ -6,7 +6,7 @@ import {
   fontSize,
   space
 } from 'styled-system'
-import styled from 'styled-components'
+import styled from 'react-emotion'
 
 const ButtonFill = styled(Link)`
   color: ${props => props.theme.colors.black} !important;

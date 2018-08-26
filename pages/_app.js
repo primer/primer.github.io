@@ -1,6 +1,6 @@
 import React from 'react'
 import BoxPro from '../src/BoxPro'
-import {ThemeProvider} from 'styled-components'
+import {ThemeProvider} from 'emotion-theming'
 import theme from '../src/theme.js'
 
 const Page = props => (
