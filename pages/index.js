@@ -6,6 +6,7 @@ import Nav from '../src/Nav'
 import Hero from '../src/Hero'
 import PrimerCSS from '../src/PrimerCSS'
 import Divider from '../src/Divider'
+import AtomPlugins from '../src/AtomPlugins'
 
 
 export default () =>
@@ -16,5 +17,6 @@ export default () =>
     <Divider my={4} />
     <PrimerCSS />
     <Divider my={4} />
+    <AtomPlugins />
   </BoxPro>
 </React.Fragment>
