@@ -7,6 +7,7 @@ import Hero from '../src/Hero'
 import PrimerCSS from '../src/PrimerCSS'
 import Divider from '../src/Divider'
 import AtomPlugins from '../src/AtomPlugins'
+import HiringPromo from '../src/HiringPromo'
 
 
 export default () =>
@@ -14,6 +15,8 @@ export default () =>
   <BoxPro bg='black'>
     <Nav />
     <Hero />
+    <Divider my={4} />
+    <HiringPromo />
     <Divider my={4} />
     <PrimerCSS />
     <Divider my={4} />
