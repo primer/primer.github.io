@@ -1,27 +1,20 @@
 import React from 'React'
-import BoxPro from './BoxPro'
-import {Heading, Text, Link} from 'primer-react'
+import {Box, Heading, Text, Link} from 'primer-react'
 import Image from './Image'
 import HeroImage from './HeroImage'
-import ButtonFill from './ButtonFill'
-import ButtonOutline from './ButtonOutline'
 
 const Hero = props => (
-  <BoxPro py={2}>
-    <BoxPro my='4' py={0,9} className='container-lg p-responsive container-lg mx-auto p-responsive d-flex flex-items-center flex-wrap flex-md-nowrap flex-md-row-reverse'>
-      <BoxPro px={0,6,0} width={[9/12,7/12]} m='auto' className='my-md-4'>
+  <Box py={2}>
+    <Box my='4' py={0,9} className='container-xl p-responsive mx-auto p-responsive d-flex flex-items-center flex-wrap flex-md-nowrap flex-md-row-reverse'>
+      <Box px={0,6,0} width={[1, 10/12, 7/12]} m='auto'>
         <HeroImage />
-      </BoxPro>
-      <BoxPro color='blue.3' my={3,3,0} width={[1, 5/12]}>
-        <BoxPro color='blue.4'>
-          <Heading mb={4} fontSize='00-light' fontWeight='bold'>Primer</Heading>
-        </BoxPro>
-        <ButtonFill mr={2} href='https://styleguide.github.com/primer/'>Documentation</ButtonFill>
-        <ButtonOutline href='https://github.com/primer/primer'>GitHub</ButtonOutline>
-        <Text tag='p' mt={5} mono fontSize={2}>npm i primer@latest</Text>
-      </BoxPro>
-    </BoxPro>
-  </BoxPro>
+      </Box>
+      <Box my={[4,3,0]} width={[1, 1, 5/12]}>
+        <Heading color="blue.4" mb={1} fontSize={7} fontWeight='bold'>Primer</Heading>
+        <Text color="blue.2" pr={[0,3,5]} is='p' fontSize={5}>Resources, tooling, and design guidelines for building interfaces with GitHub&#8217;s design system</Text>
+      </Box>
+    </Box>
+  </Box>
 )
 
 export default Hero
