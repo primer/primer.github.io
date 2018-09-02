@@ -2,20 +2,16 @@
 
 import {Link} from 'primer-react'
 import {
-  color,
-  fontSize,
-  space
+  color
 } from 'styled-system'
 import styled from 'react-emotion'
 
 const LinkLight = styled(Link)`
   color: ${props => props.theme.colors.blue[3]} !important;
-  ${fontSize}
-  ${space}
 `
 
 LinkLight.defaultProps = {
-  color: 'blue.3'
+  color: 'blue.2'
 }
 
 export default LinkLight
