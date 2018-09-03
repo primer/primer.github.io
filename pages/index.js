@@ -10,6 +10,7 @@ import Divider from '../src/Divider'
 import AtomPlugins from '../src/AtomPlugins'
 import OcticonsPromo from '../src/OcticonsPromo'
 import OpenSource from '../src/OpenSource'
+import PrimerReact from '../src/PrimerReact'
 
 
 export default () =>
@@ -21,6 +22,8 @@ export default () =>
     <HiringPromo />
     <Divider my={6} />
     <PrimerCSS />
+    <Divider my={6} />
+    <PrimerReact />
     <Divider my={6} />
     <AtomPlugins />
     <Divider my={6} />
