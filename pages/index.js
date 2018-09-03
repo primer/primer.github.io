@@ -15,11 +15,12 @@ export default () =>
   <BoxPro bg='black'>
     <Nav />
     <Hero />
-    <Divider my={4} />
+    <Divider my={6} />
     <HiringPromo />
-    <Divider my={4} />
+    <Divider my={6} />
     <PrimerCSS />
-    <Divider my={4} />
+    <Divider my={6} />
     <AtomPlugins />
+    <Divider my={6} />
   </BoxPro>
 </React.Fragment>

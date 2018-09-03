@@ -8,20 +8,25 @@ import {
 } from 'styled-system'
 import styled from 'react-emotion'
 
-const ButtonFill = styled(Link)`
-  color: ${props => props.theme.colors.black} !important;
-  background-color: ${props => props.theme.colors.blue[3]};
+const ButtonPromo = styled(Link)`
+  color: ${props => props.theme.colors.orange[3]} !important;
+  border-color: ${props => props.theme.colors.orange[3]};
+  border-width: 1px;
+  border-style: solid;
   padding: .75em 1.25em;
   font-size: ${props => props.theme.fontSizes[2]};
   border-radius: 6px;
   font-size: 16px;
   font-weight: 600;
   display: inline-block;
+  ${space}
   &:hover {
-    background-color: ${props => props.theme.colors.blue[4]};
+    color: ${props => props.theme.colors.black} !important;
+    background-color: ${props => props.theme.colors.orange[4]} !important;
+    border-color: ${props => props.theme.colors.orange[4]};
     text-decoration: none;
   }
-  ${space}
+
 `
 
-export default ButtonFill
+export default ButtonPromo

@@ -5,7 +5,7 @@ import ButtonFill from './ButtonFill'
 import ButtonOutline from './ButtonOutline'
 
 const AtomPlugins = props => (
-  <Box py={2}>
+  <Box>
     <Box my={[0, 3, 6]} className='container-xl p-responsive mx-auto p-responsive d-flex flex-items-center flex-wrap flex-md-nowrap flex-md-row-reverse'>
       <Box px={0,6,0} width={[1, 10/12, 6/12]} m='auto'>
         <AtomImage />

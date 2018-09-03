@@ -18,6 +18,7 @@ const ButtonOutline = styled(Link)`
   border-radius: 6px;
   font-size: 16px;
   font-weight: 600;
+  display: inline-block;
   ${space}
   &:hover {
     color: ${props => props.theme.colors.blue[4]} !important;

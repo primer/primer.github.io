@@ -6,7 +6,7 @@ import ButtonFill from './ButtonFill'
 import ButtonOutline from './ButtonOutline'
 
 const PrimerCSS = props => (
-  <Box py={2}>
+  <Box>
     <Box my={[0, 3, 5]} className='container-xl p-responsive mx-auto p-responsive d-flex flex-items-center flex-wrap flex-md-nowrap flex-md-row-reverse'>
       <Box my={[4,3,0]} width={[1, 1, 6/12]} pl={[0,3,5]} >
         <Heading lineHeight="1.25" color="blue.4" mb={3} fontSize={5} fontWeight='bold'>Highly resuable, flexbile styles</Heading>
@@ -21,7 +21,7 @@ const PrimerCSS = props => (
       </Box>
       </Box>
     </Box>
-    <Box my={[2, 4]} className="container-xl p-responsive">
+    <Box mt={[2, 4]} className="container-xl p-responsive">
       <Box width={[1, 10/12, 6/12]} mx="auto" align="center">
         <Text is="p" fontSize={5} color="blue.2" pb={2}>Install only what you need</Text>
       </Box>

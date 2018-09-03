@@ -3,7 +3,7 @@ import {Box, Heading, Text, Link} from 'primer-react'
 import HeroImage from './HeroImage'
 
 const Hero = props => (
-  <Box py={2}>
+  <Box pt={2}>
     <Box my={[0, 3, 6]} className='container-xl p-responsive mx-auto p-responsive d-flex flex-items-center flex-wrap flex-md-nowrap flex-md-row-reverse'>
       <Box px={0,6,0} width={[1, 10/12, 7/12]} m='auto'>
         <HeroImage />
