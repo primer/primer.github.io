@@ -22,31 +22,31 @@ const PrimerCSS = props => (
       </Box>
     </Box>
     <Box mt={[2, 4]} className="container-xl p-responsive">
-      <Box width={[1, 10/12, 6/12]} mx="auto" align="center">
-        <Text is="p" fontSize={5} color="blue.2" pb={2}>Install only what you need</Text>
+      <Box>
+        <Text is="p" fontSize={5} color="blue.2" pb={2} >Install only the packages you need.</Text>
       </Box>
 
       <div className="d-flex flex-wrap gutter">
         <Box width={[1, 6/12, 6/12]} px={2}>
-          <Box px={3}>
+          <Box px={2}>
             <Text is="p" fontSize={2} mt={4} color="blue.3" className="text-mono">@primer/css</Text>
             <Text is='p' color="blue.2" mb={4} fontSize={3}>This package includes all 30 Primer modules from the core, product, and marketing packages</Text>
           </Box>
         </Box>
         <Box width={[1, 6/12, 6/12]} px={2}>
-          <Box px={3}>
+          <Box px={2}>
             <Text is="p" fontSize={2} mt={4} color="blue.3" className="text-mono">@primer/css-core</Text>
             <Text is='p' color="blue.2" mb={4} fontSize={3}>The core package contains modules that are shared between GitHub product and marketing websites</Text>
           </Box>
         </Box>
         <Box width={[1, 6/12, 6/12]} px={2}>
-          <Box px={3}>
+          <Box px={2}>
             <Text is="p" fontSize={2} mt={4} color="blue.3" className="text-mono">@primer/css-product</Text>
             <Text is='p' color="blue.2" mb={4} fontSize={3}>The product package contains modules that are used on GitHub product websites</Text>
           </Box>
         </Box>
         <Box width={[1, 6/12, 6/12]} px={2}>
-          <Box px={3}>
+          <Box px={2}>
             <Text is="p" fontSize={2} mt={4} color="blue.3" className="text-mono">@primer/css-marketing</Text>
             <Text is='p' color="blue.2" mb={4} fontSize={3}>The marketing package contains modules that are used on GitHub marketing websites</Text>
           </Box>
