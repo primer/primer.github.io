@@ -8,6 +8,7 @@ import PrimerCSS from '../src/PrimerCSS'
 import Divider from '../src/Divider'
 import AtomPlugins from '../src/AtomPlugins'
 import HiringPromo from '../src/HiringPromo'
+import OcticonsPromo from '../src/OcticonsPromo'
 
 
 export default () =>
@@ -21,6 +22,7 @@ export default () =>
     <PrimerCSS />
     <Divider my={6} />
     <AtomPlugins />
+    <OcticonsPromo />
     <Divider my={6} />
   </BoxPro>
 </React.Fragment>
