@@ -18,7 +18,9 @@ const OcticonsPromo = props => (
 
         <Text is="p" fontSize={2} color="blue.3" className="text-mono">v8.1.0</Text>
       </Box>
-      <OcticonsImage />
+      <Box px={[0, 0, 3, 5]} pb={4}>
+        <OcticonsImage />
+      </Box>
     </Box>
 
     <Box className="container-xl p-responsive mx-auto" color="blue.2">
