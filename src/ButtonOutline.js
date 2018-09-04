@@ -21,8 +21,9 @@ const ButtonOutline = styled(Link)`
   display: inline-block;
   ${space}
   &:hover {
-    color: ${props => props.theme.colors.blue[4]} !important;
-    border-color: ${props => props.theme.colors.blue[4]};
+    color: ${props => props.theme.colors.black} !important;
+    background-color: ${props => props.theme.colors.blue[3]} !important;
+    border-color: ${props => props.theme.colors.blue[3]};
     text-decoration: none;
   }
 

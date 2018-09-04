@@ -8,9 +8,11 @@ import {
 } from 'styled-system'
 import styled from 'react-emotion'
 
-const ButtonFillDark = styled(Link)`
-  color: ${props => props.theme.colors.blue[2]} !important;
-  background-color: ${props => props.theme.colors.black};
+const ButtonOutlineDark = styled(Link)`
+  color: ${props => props.theme.colors.black} !important;
+  border-color: ${props => props.theme.colors.black};
+  border-width: 1px;
+  border-style: solid;
   padding: .75em 1.25em;
   font-size: ${props => props.theme.fontSizes[2]};
   border-radius: 6px;
@@ -18,10 +20,11 @@ const ButtonFillDark = styled(Link)`
   font-weight: 600;
   display: inline-block;
   &:hover {
-    background-color: ${props => props.theme.colors.gray[8]};
+    color: ${props => props.theme.colors.blue[2]} !important;
+    background-color: ${props => props.theme.colors.black};
     text-decoration: none;
   }
   ${space}
 `
 
-export default ButtonFillDark
+export default ButtonOutlineDark
