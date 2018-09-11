@@ -1,3 +1,3 @@
-# Primercss.io
+# Deprecated
 
-Website for [Primer CSS](https://github.com/primer/primer-css).
+Visit [primer.style](https://primer.style).
