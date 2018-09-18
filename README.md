@@ -1,3 +1,3 @@
 # Deprecated
 
-Visit [primer.style](https://primer.style).
+Visit the [primer.style](https://github.com/primer/primer.style/) repo.
